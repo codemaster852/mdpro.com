@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDpro</title>
+    <style>
+        header{
+            background-color:rosybrown;
+            padding: 20px 100px 50px 10px;
+            
+        }
+
+        .playwrite-cu {
+            font-family: Brush Script MT;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .img1{
+       border-radius: 51% 49% 53% 47% / 48% 47% 53% 52%;
+      }
+      .p{
+          font-size:20px;
+          text-decoration: none;
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        .div1{
+            border:solid black;
+            width:230px;
+           padding: 5px 5px 5px 5px;
+             }
+        .s{
+          color: black;
+         text-align: center;
+        }
+        .img2{
+          border-radius: 53% 46% 51% 48% / 52% 56% 44% 48%;
+          width:200px;
+          height:200px;
+        }
+        .try{
+          animation: myAnim 2s ease 0s 1 normal both;
+        }
+        @keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+.scroll-progress{
+  position: fixed;
+  height: 10px;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:rgb(0, 195, 255);
+  animation: scroll-progress linear;
+  animation-timeline:scroll();
+}
+@keyframes scroll-progress{
+  from {
+    width:0px;
+  }
+  to {
+    width:100%;
+  }
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+      </style>
+      <link rel="icon" href="photo1.png"
+</head>
+<body>
+    <header>
+        <div>
+            <center>
+                <h1 class="playwrite-cu">MDpro</h1>
+                
+            </center>
+            <div class="topnav">
+                <a class="non-active" href="home-page.html">Home</a>
+                <a class="active" href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+                <a href="team.html">Our Team</a>
+                <a href="about us.html">About us</a>
+                <a class="non-active" href="Books.html">Books</a>
+                <a class="non-active" href="blogs.html">Blogs</a>
+                <a class="non-active" href="news.html">News</a>
+                <a class="non-active" href="eltazem.html">eltazem</a>
+                <a class="non-active" href="tests.html">tests</a>
+                <a class="non-active" href="jobs.html">jobs</a>
+                <a class="non-active" href="academies.html">Academies</a>
+                <a class="non-active" href="Chessteam.html">Chess Team</a>
+                <a class="non-active" href="Comments.html">Comments</a> 
+              </div>
+            
+        </div>
+    </header>
+    <div class="scroll-progress"></div>
+    <br>
+    <div class="try">
+      <section>
+        <center>
+          <h2 class="title">Courses</h2>
+          <br>
+        
+          <a class="france" href="french-course.html">
+          <div class="div1">
+          <img class="img1" src="french.jfif">
+          <pre class="p" >    French Course</pre>
+          </a>
+          <span class="s">French course for levels A1-A2-B1-B2</span>
+          </div>
+          <br>
+          <section>
+          <a class="france" href="turkish-course.html">
+          <div class="div1">
+          <img class="img2" src="turkish.png">
+          <pre class="p" >    turkish course</pre>
+          </a>
+          <span class="s">turkish course for levels A1-A2-B1-B2</span>
+         </div>
+      
+          </section>
+          <br>
+          <section>
+          <a class="france" href="chinese.html">
+          <div class="div1">
+          <img class="img2" src="china.jfif">
+          <pre class="p" >    Chinese Course</pre>
+          </a>
+          <span class="s">Chinese course for levels A1-A2-B1-B2</span>
+          </div>
+        </section>
+        </section>
+        <br>
+        <center>
+        <section>
+        <a class="france" href="japanese.html">
+        <div class="div1">
+        <img class="img2" src="japanese.png">
+        <pre class="p" >    Japanese Course</pre>
+        </a>
+        <span class="s">Japanese course for levels A1-A2-B1-B2</span>
+        </div>
+        </section>
+        <br>
+        <section>
+          <a class="france" href="translate.html">
+          <div class="div1">
+          <img class="img2" src="translate.png">
+          <pre class="p" >    Translate Course</pre>
+          </a>
+          <span class="s">Translate course for levels A1-A2-B1-B2</span>
+          </div>
+          </section>
+          <br>
+          <section>
+            <a class="france" href="listing.html">
+            <div class="div1">
+            <img class="img2" src="listning.jpg">
+            <pre class="p" >    Listening Course</pre>
+            </a>
+            <span class="s">Listening course for levels A1-A2-B1-B2</span>
+            </div>
+            </section>
+            <br>
+            <section>
+              <a class="france" href="Conversation.html">
+              <div class="div1">
+              <img class="img2" src="Conversation.webp">
+              <pre class="p" >  Conversation Course</pre>
+              </a>
+              <span class="s">Conversation course for levels A1-A2-B1-B2</span>
+              </div>
+              </section>
+              <br>
+              <section>
+                <a class="france" href="accent.html">
+                <div class="div1">
+                <img class="img2" src="accent.jpg">
+                <pre class="p" >    Accent Course       </pre>
+                </a>
+                <span class="s"> Accent course for levels A1-A2-B1-B2</span>
+                </div>
+                </section>
+                <br>
+                <section>
+                  <a class="france" href="phonics.html">
+                  <div class="div1">
+                  <img class="img2" src="phonics.jpg">
+                  <pre class="p" >    phonics Course       </pre>
+                  </a>
+                  <span class="s"> phonics course for levels A1-A2-B1-B2</span>
+                  </div>
+                  </section>
+                  <br>
+                  <section>
+                    <a class="france" href="grammer.html">
+                    <div class="div1">
+                    <img class="img2" src="grammer.webp">
+                    <pre class="p" >English Grammer Course       </pre>
+                    </a>
+                    <span class="s">English Grammer course for levels A1-A2-B1-B2</span>
+                    </div>
+                    </section>
+                    <br>
+                    <section>
+                      <a class="france" href="slango.html">
+                      <div class="div1">
+                      <img class="img2" src="slango.png">
+                      <pre class="p" >Slango English Course       </pre>
+                      </a>
+                      <span class="s">Slango English course for levels A1-A2-B1-B2</span>
+                      </div>
+                      </section>
+                      <br>
+                      <section>
+                        <a class="france" href="reading.html">
+                        <div class="div1">
+                        <img class="img2" src="reading.jfif">
+                        <pre class="p" >    Reading Course       </pre>
+                        </a>
+                        <span class="s">Reading course for levels A1-A2-B1-B2</span>
+                        </div>
+                        </section>
+                        <br>
+                        <section>
+                          <a class="france" href="russian.html">
+                          <div class="div1">
+                          <img class="img2" src="russian.jfif">
+                          <pre class="p" >    Russian Course       </pre>
+                          </a>
+                          <span class="s">Russian course for levels A1-A2-B1-B2</span>
+                          </div>
+                          </section>
+                          <br>
+                          <section>
+                            <a class="france" href="Toefl1.html">
+                            <div class="div1">
+                            <img class="img2" src="اختبار-التوفل.webp">
+                            <pre class="p" >    Toefl Course       </pre>
+                            </a>
+                            <span class="s">Toefl course for  all levels</span>
+                            </div>
+                            </section>
+                            <br>
+                            <section>
+                              <a class="france" href="ielts.html">
+                              <div class="div1">
+                              <img class="img2" src="ielts.png">
+                              <pre class="p" >    Ielts Course       </pre>
+                              </a>
+                              <span class="s">Ielts course for  all levels</span>
+                              </div>
+                              </section>
+                              <br>
+                              <section>
+                                <a class="france" href="writing.html">
+                                <div class="div1">
+                                <img class="img2" src="writing.jfif">
+                                <pre class="p" >    Writing Course       </pre>
+                                </a>
+                                <span class="s">Writing course for  all levels</span>
+                                </div>
+                                </section>
+                                <br>
+                                <section>
+                                  <a class="france" href="korean.html">
+                                  <div class="div1">
+                                  <img class="img2" src="Flag-South-Korea.webp">
+                                  <pre class="p" >Korean Alphabet Course       </pre>
+                                  </a>
+                                  <span class="s">Korian Alphabet course for a0</span>
+                                  </div>
+                                  </section>
+                                  <br>
+                                  <section>
+                                    <a class="france" href="Portuguese.html">
+                                    <div class="div1">
+                                    <img class="img2" src="Portuguese.jfif">
+                                    <pre class="p">Portuguese Course 
+             (English)</pre>
+                                    </a>
+                                    <span class="s">Portuguese course for a0-a1-a2</span>
+                                    </div>
+                                    </section>
+                                    <br>
+                                    <section>
+                                      <a class="france" href="italian.html">
+                                      <div class="div1">
+                                      <img class="img2" src="italian.jfif">
+                                      <pre class="p" >    Italian Course       </pre>
+                                      </a>
+                                      <span class="s">Italian course for a1-a2-b1</span>
+                                      </div>
+                                      </section>
+                                      <br>
+                                      
+                                      <section>
+        </center>
+      </center>
+      </section>
+      
+      
+    
+    </div>
+    
+    <footer>
+      <div class="container">
+          <p>&copy; 2024 MDpro. All rights reserved.</p>
+      </div>
+    
+</body>
+</html>
